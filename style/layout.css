@@ -1,1 +1,113 @@
-@import './typografy.css'
+@import './typografy.css';
+@import './button.css';
+@import './nav.css';
+
+
+body{
+    background: #f8f8f8;
+}
+header,  section{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+i{
+    font-size: 15pt;
+}
+header{
+    background: #ecf0f1;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    padding: 5%;
+}
+.container{
+    width:100%;
+    height: 350px;
+}
+
+#langindpage-container{
+    width: 100%;
+    padding-top: 10%;
+}
+
+#hello{
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#langindpage-container h1{
+    font-size: 50px;
+}
+
+#langindpage-container h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    text-transform: uppercase;
+}
+#name{
+    color: #2c3e50;
+}
+#webD{
+    margin-left: 20%;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: #34495e;   
+}
+
+#whoiam{
+    color: #2c3e50;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#info{
+    width: 50%;
+    word-break: break-all;
+    padding: 2%;
+    margin-left: 25%;
+    opacity: .8;
+}
+.about{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.buttons{
+    margin-left: 40%;
+
+}
+.cv{
+    height: auto;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+}
+
+ul#list{
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul#list li h6{ margin-bottom:10px;}
+ul#list li h5{ opacity: .5;}
+ul#list li h4{ margin-bottom:10px; color: #c0392b;}
+
+.projects{
+    text-align: center;
+    padding: 2%;
+}
+
+.projects h3 {text-align: center!important;}

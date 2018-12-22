@@ -1,0 +1,83 @@
+
+.menu{
+    display: block;
+    padding: 4%;
+    padding-top: 45px;
+    padding-right: 25%;
+}
+nav{
+    display: none;
+    flex-direction: column;
+    box-pack: justify;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: auto;
+    background: #f4f7f6;
+    overflow: auto;
+    z-index: 300;
+    transition: ease-in .3s;
+    
+}
+
+ul{ padding: 0px; margin: 0;}
+li{ 
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #202121;
+    text-align: center;
+}
+
+.menu li a{
+    position: relative;
+    display: block;
+    padding: 24px 36px;
+    padding-left: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #202121;
+    cursor: pointer;
+    background: #f4f7f6;
+    border-bottom: 1px solid #E6EAEA;
+}
+
+.top{
+    height: 70px;
+    padding: 0 30px;
+    line-height: 70px;
+    font-size: 13px;
+    font-weight: normal;
+    background: #f4f7f6;
+    border-bottom: 1px solid #E6EAEA;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu-bar{
+    color: #2c3e50;
+    cursor: pointer;
+}
+.top #left{
+    float: left;
+}
+
+.top #right{
+    float: right;
+}
+
+
+.menu li a:hover{
+    background: white;
+}
