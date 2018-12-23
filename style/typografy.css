@@ -5,14 +5,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-h1 , h2 , h3 , h4 , h5 , h6, button{
+h1 , h2 , h3 , h4 , h5 , h6, button,p{
     font-family: 'Open Sans', sans-serif;
     color: #2c3e50;
 }
 
-label , input, p{
+label , input{
     font-family: 'Noto Sans KR', sans-serif;
-}
 }
 
 h1{
