@@ -1,0 +1,188 @@
+@import './typografy.css';
+@import './button.css';
+@import './nav.css';
+
+.container{
+    width:100%;
+    height: 350px;
+}
+
+#langindpage-container{
+    width: 100%;
+    padding-top: 10%;
+}
+
+#hello{
+    font-weight: lighter;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#langindpage-container h1{
+    font-size: 50px;
+}
+
+#langindpage-container h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    text-transform: uppercase;
+}
+#name{
+    color: #2c3e50;
+}
+#webD{
+    margin-left: 20%;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: #34495e;   
+}
+
+#whoiam{
+    color: #2c3e50;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#info{
+    width: 50%;
+    word-break: keep-all;
+    padding: 2%;
+    margin-left: 25%;
+    opacity: .8;
+    font-size: 15px;
+}
+.about{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.buttons{
+    margin-left: 40%;
+
+}
+.cv{
+    height: auto;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+}
+
+ul#list{
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul#list li h6{ margin-bottom:10px;}
+ul#list li h5{ opacity: .5;}
+ul#list li h4{ margin-bottom:10px; color: #2c3e50;}
+
+.black{ color: #2c3e50 !important;}
+
+ul#list li h4{
+    letter-spacing: 0px;
+    text-align: left;
+}
+.projects,  .contact{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+
+.social{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.social i{
+    color: #ecf0f1;
+    font-size: 15pt;
+    padding: 2%;
+    cursor: pointer;
+    opacity: .8;
+}
+
+footer i , footer h5{
+    color: #7f8c8d;
+    font-weight: lighter;
+}
+footer h5{
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.contact h3 {text-align: center!important; color: #FF9800; font-weight: lighter;}
+
+.projects h3 {text-align: center!important;}
+
+
+.card{
+    width: 50%;
+    height: 250px;
+    border-bottom: 1px solid #E6EAEA;    
+    cursor: pointer;
+}
+
+.card:hover{ opacity: .5;}
+.project-section{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #E6EAEA;    
+
+}
+
+.contact-form{
+    background: #292929;
+    box-sizing: border-box;
+}
+.form{
+    width: 50%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+
+
+.image1 , .image2{
+    background-image: url("https://1stwebdesigner.com/wp-content/uploads/2017/12/mobile-app-design-trends-2017-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.image2{
+    
+    background-image: url("https://cdn-images-1.medium.com/max/2000/1*wCmoNISU2HIYgN1zqlkuMw.jpeg");
+}
+
+.image3{
+    
+    background-image: url("https://cdn-images-1.medium.com/max/2000/1*wCmoNISU2HIYgN1zqlkuMw.jpeg");
+}
+
+.image4{
+    
+    background-image: url("https://designrfix.com/wp-content/uploads/2014/01/dashboard-design-81.jpg");
+}
+
+
+.image5{
+    
+    background-image: url("https://cdn-images-1.medium.com/max/1200/1*aMaydPqEoYic8mbdwN5VrA.png");
+}
+
+.image6{
+    background-position: right;
+    background-image: url("https://i.pinimg.com/originals/f3/f8/59/f3f859a6980c2b6f6548266a085ab247.jpg");
+}
