@@ -154,7 +154,13 @@ footer h5{
 
 
 
-.image1 , .image2{
+.image1 , 
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7{
     background-image: url("https://1stwebdesigner.com/wp-content/uploads/2017/12/mobile-app-design-trends-2017-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
